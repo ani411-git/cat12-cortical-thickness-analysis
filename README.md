@@ -77,3 +77,8 @@ Raw subject imaging data is not shared due to institutional data privacy policie
 ## Inference
 Using repeated-measures ANOVA, intraclass correlation analysis, and absolute bias metrics, we demonstrate that CAT12 segmentation is highly robust to acquisition orientation, while revealing a small but consistent axial underestimation of cortical thickness. These findings provide empirical support for the continued use of sagittal T1-weighted acquisitions as the preferred reference orientation in CAT12-based morphometry.
 
+## Reproducibility Notes
+
+This pipeline is primarily GUI-driven using CAT12.
+Detailed methodological steps are documented to enable replication.
+Raw MRI data cannot be shared due to institutional privacy policies.
