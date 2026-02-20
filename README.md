@@ -1,8 +1,6 @@
 # Cortical Thickness Analysis using CAT12 for Orientation Reliability Assessment
 
-This project investigates the reliability of cortical thickness estimation across different MRI orientations (Axial, Sagittal, Coronal) using the CAT12 toolbox in SPM12 (MATLAB).
-
-The study evaluates whether cortical thickness measurements remain consistent across acquisition orientations through statistical reliability analysis (ICC and Mean Absolute Difference).
+This project evaluates the orientation robustness of CAT12-based cortical thickness estimation by comparing axial, sagittal, and coronal MRI acquisitions using quantitative reliability metrics (ICC, MAD). 
 
 ## Objectives
 - Perform CAT12-based cortical thickness estimation
@@ -21,7 +19,7 @@ The study evaluates whether cortical thickness measurements remain consistent ac
    - Intraclass Correlation Coefficient (ICC)
    - Mean Absolute Difference (MAD)
 
-## Tools Used
+## Softwares and Frameworks
 
 - MATLAB
 - SPM12
@@ -29,8 +27,16 @@ The study evaluates whether cortical thickness measurements remain consistent ac
 - SPSS
 - Neuroimaging surface visualization
 
+## Dataset & Experimental Setup
+
+- T1-weighted MRI volumes processed using CAT12 (SPM12)
+- Orientation-specific acquisitions: axial, sagittal, coronal
+- Processing performed at NIMHANS using standardized CAT12 pipeline
+- Cortical thickness extracted per ROI and aggregated by cortical lobes
+
 
 ## Results
+Quantitative analysis demonstrated high ICC reliability across cortical lobes with minor orientation-dependent bias.
 
 ### Reliability Across Lobes
 
